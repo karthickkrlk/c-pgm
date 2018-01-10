@@ -2,8 +2,12 @@
 #include<stdio.h>
 void main()
 {
-int i;
-for(i=0;i<6;i++)
+int i,a;
+printf("\n Enter the number of times");
+scanf("%d",&i,&a);
+for(i=0;i<a;i++)
+{
 printf("\n HELLO");
+}
 getch()
 }
